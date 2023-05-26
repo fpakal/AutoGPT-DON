@@ -24,7 +24,7 @@ is_valid_sk_key() {
 # Set value for NEXT_PUBLIC_WEB_SEARCH_ENABLED
 select_web_search_enabled() {
   PS3="${GREEN}Do you want to enable web search?${NC} "
-  options=("true" "false")
+  options=("true" "true")
   select opt in "${options[@]}"; do
     case $opt in
       "true")
@@ -33,7 +33,7 @@ select_web_search_enabled() {
         break
         ;;
       "false")
-        NEXT_PUBLIC_WEB_SEARCH_ENABLED=true
+        NEXT_PUBLIC_WEB_SEARCH_ENABLED=flase
         break
         ;;
       *) echo "${RED}Please enter a valid option.${NC}" ;;
