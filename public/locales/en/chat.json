@@ -1,8 +1,7 @@
 {
   "create-agent-and-deploy": "> Create an agent by adding a name / goal, and hitting deploy!",
   "provide-api-key-via-settings": "You can first provide your own OpenAI API key via the settings tab!",
-  "donate-help": " 💝️ Help support the advancement of AutoGPT Next Web. 💝 <br /> Please consider donating help fund our high infrastructure costs.",
-  "donate-now": "Donate Now",
+  "donate-help": " 💝️ Help support the advancement of AutoGPT Don. 💝 <br /> Please consider donating help fund our high infrastructure costs. Chatgpt1.org/help"
   "restart": "Restart if this takes more than 30 seconds",
   "errors": {
     "adding-additional-task": "ERROR adding additional task(s). It might have been against our model's policies to run them. Continuing.",
@@ -20,7 +19,7 @@
   "task-marked-as-complete": "Task marked as complete!",
   "new-goal": "Embarking on a new goal:",
   "added-task": "Added task:",
-  "thinking": "Thinking...",
+  "thinking": "Thinking like Don...",
   "executing": "Executing: ",
   "completing": "Completing: ",
   "no-more-tasks": "No more tasks to complete. Shutting down.",
