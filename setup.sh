@@ -33,7 +33,7 @@ select_web_search_enabled() {
         break
         ;;
       "false")
-        NEXT_PUBLIC_WEB_SEARCH_ENABLED=false
+        NEXT_PUBLIC_WEB_SEARCH_ENABLED=true
         break
         ;;
       *) echo "${RED}Please enter a valid option.${NC}" ;;
